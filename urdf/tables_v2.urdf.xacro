@@ -42,7 +42,7 @@
     </link>
 
 
-    <link name="apple_proxy">
+    <!-- <link name="apple_proxy">
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
@@ -58,7 +58,7 @@
           <mesh filename="package://applevision_moveit_config/meshes/apple_proxy/collision/apple_proxy_collision.STL" scale="0.001 0.001 0.001"/>
         </geometry>
       </collision>
-    </link>
+    </link> -->
 
 
     <!-- Simplified Version of Lisa's hand -->

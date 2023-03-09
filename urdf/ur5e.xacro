@@ -48,15 +48,15 @@
   <joint name="world_small_table" type="fixed">
     <parent link="world" />
     <child link="small_table" />
-    <origin xyz="-0.21 -1.535 0" rpy="0 0 1.5708" />
+    <origin xyz="-0.13 -1 0" rpy="0 0 1.5708" />
   </joint>
 
   <!-- Describe the interface between the world and the Apple Proxy -->
-  <joint name = "bigTable_simpleProxy" type="fixed"> -->
-    <parent link = "big_table" /> -->
-    <child link = "apple_proxy" /> -->
-    <origin xyz = ".462 1.027 1.67" rpy="3.1416 1.5708 0" />
-  </joint>
+  <!-- <joint name = "bigTable_simpleProxy" type="fixed"> -->
+    <!-- <parent link = "big_table" /> --> -->
+    <!-- <child link = "apple_proxy" /> -->
+    <!-- <origin xyz = ".462 1.027 1.67" rpy="3.1416 1.5708 0" /> --> -->
+  <!-- </joint> --> -->
 
   <!-- Describe the interface between the world and the robot" -->
   <joint name="world_joint" type="fixed">
@@ -92,7 +92,7 @@
     <parent link = "base_link" />
     <child link = "apple" />
     <!-- <origin xyz = "-0.04 -0.03 -2.08" rpy="0 0.0 0.0" /> -->
-    <origin xyz = "-.99 -.1205 .5225" rpy="0 0 0" />
+    <origin xyz = "-.95 -.12 .5225" rpy="0 0 0" />
   </joint>
 
 </robot>

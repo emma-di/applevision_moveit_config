@@ -107,11 +107,6 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          apple_proxy:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           apple_stem:
             Alpha: 1
             Show Axes: false
@@ -213,7 +208,7 @@ Visualization Manager:
         Goal State Color: 250; 128; 0
         Interactive Marker Size: 0.15000000596046448
         Joint Violation Color: 255; 0; 255
-        Planning Group: proxy
+        Planning Group: endeffector
         Query Goal State: false
         Query Start State: false
         Show Workspace: false
@@ -237,11 +232,6 @@ Visualization Manager:
           Expand Tree: false
           Link Tree Style: Links in Alphabetic Order
           apple:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          apple_proxy:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -342,14 +332,14 @@ Visualization Manager:
       Length: 1
       Name: Axes
       Radius: 0.009999999776482582
-      Reference Frame: palm_camera
+      Reference Frame: tool0
       Value: true
     - Class: rviz/Axes
       Enabled: true
       Length: 1
       Name: Axes
       Radius: 0.009999999776482582
-      Reference Frame: tool0
+      Reference Frame: applevision_est
       Value: true
     - Class: rviz/Axes
       Enabled: true
@@ -583,25 +573,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 3.5164988040924072
+      Distance: 3.4658610820770264
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 1.0811594724655151
-        Y: 0.5430632829666138
-        Z: -0.055259138345718384
+        X: 0.8103165626525879
+        Y: 0.6430422067642212
+        Z: 0.034683957695961
       Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.49479731917381287
+      Pitch: 0.5447971224784851
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 5.398510456085205
+      Yaw: 4.538500785827637
     Saved: ~
 Window Geometry:
   Displays:
