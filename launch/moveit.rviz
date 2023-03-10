@@ -328,12 +328,12 @@ Visualization Manager:
       Reference Frame: palm
       Value: true
     - Class: rviz/Axes
-      Enabled: true
+      Enabled: false
       Length: 1
       Name: Axes
       Radius: 0.009999999776482582
       Reference Frame: tool0
-      Value: true
+      Value: false
     - Class: rviz/Axes
       Enabled: true
       Length: 1
@@ -573,7 +573,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 3.4658610820770264
+      Distance: 3.7707743644714355
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -588,10 +588,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.5447971224784851
+      Pitch: 1.1197965145111084
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.538500785827637
+      Yaw: 4.9485039710998535
     Saved: ~
 Window Geometry:
   Displays:
