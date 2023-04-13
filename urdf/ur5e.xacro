@@ -87,12 +87,11 @@
     <!-- <origin xyz = "0 0 -.05" rpy="1.5708 0 0" /> -->
     <origin xyz = "-.99 -.1205 .5525" rpy="1.5708 0 0" />
   </joint>
-
   <joint name = "stem_apple" type="fixed">
     <parent link = "base_link" />
     <child link = "apple" />
-    <!-- <origin xyz = "-0.04 -0.03 -2.08" rpy="0 0.0 0.0" /> -->
-    <origin xyz = "-1.02 -.09 .505" rpy="0 0 0" />
+    <!-- <origin xyz = "-1.02 -.09 .505" rpy="0 0 0" /> -->
+    <origin xyz = "-1.075 -.095 .505" rpy = "0 0 0" />
   </joint>
 
 </robot>
