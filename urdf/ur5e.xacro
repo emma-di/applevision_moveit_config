@@ -81,7 +81,7 @@
   <!--</joint> -->
 
   <joint name = "proxy_stem" type="fixed">
-    <parent link = "base_link" />
+    <parent link = "base_link" /> -m
     <child link = "apple_stem" />
     <!-- <origin xyz = "0.16 0.45 2.42" rpy="0 3.1416 0.0" /> -->
     <!-- <origin xyz = "0 0 -.05" rpy="1.5708 0 0" /> -->
@@ -91,7 +91,7 @@
     <parent link = "base_link" />
     <child link = "apple" />
     <!-- <origin xyz = "-1.02 -.09 .505" rpy="0 0 0" /> -->
-    <origin xyz = "-1.075 -.095 .505" rpy = "0 0 0" />
+    <origin xyz = "-1.075 -.095 .505" rpy = "0 0 0" /> <!--x was 1.055, may have shifted in the wrong direction-->
   </joint>
 
 </robot>
